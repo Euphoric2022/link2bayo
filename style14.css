@@ -1,0 +1,302 @@
+/* Euphoric tv */
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  height: 100vh;
+}
+.container2 {
+  margin-left: 120px;
+  margin-right: 50px;
+}
+.container-fluid img {
+  height: 70px;
+  width: 90px;
+}
+.navbar-nav {
+  margin: auto;
+}
+
+.nav-item a {
+  color: grey !important;
+  font-size: 22px;
+}
+.nav-item a:hover {
+  color: black !important;
+}
+.navbar {
+  background-color: white !important;
+}
+.notify {
+  border: 2px solid green;
+  width: 70%;
+  height: 45px;
+  border-radius: 20px;
+}
+
+.notify input {
+  border: none;
+  outline: none;
+  margin-left: 30px;
+  width: 50%;
+}
+
+.notify button {
+  background-color: green;
+  color: white;
+
+  width: 120px;
+  border: none;
+  outline: none;
+  margin-top: 3px;
+  border-radius: 20px;
+  height: 35px;
+  margin-left: 52px;
+}
+
+span {
+  color: green;
+}
+.content {
+  margin-top: 100px;
+  width: 600px;
+}
+.content h1 {
+  font-size: 48px;
+}
+.content p {
+  width: 350px;
+  padding-left: 3px;
+  padding-top: 15px;
+  font-weight: 500;
+}
+.icons {
+  color: green;
+  display: flex;
+  font-size: 30px;
+}
+.wrapper {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: 2px solid green;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 70px;
+}
+.rowv {
+  display: flex;
+  flex-direction: row;
+}
+.image {
+  margin-top: 50px;
+}
+.container2 .contact {
+  text-align: center;
+  padding-bottom: 70px;
+  color: green;
+  font-size: 30px;
+}
+
+.card-row {
+  width: 450px;
+  margin-right: 30px;
+  margin-left: 0px;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  border-top: 3px solid green;
+  border-bottom: 3px solid green;
+  background-color: white;
+  height: 650px;
+}
+
+label {
+  font-weight: 700;
+}
+.form-message {
+  height: 300px;
+  width: 610px;
+  margin-right: 50px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+.form-control {
+  height: 40px;
+  width: 290px;
+}
+.form-subject {
+  height: 40px;
+  width: 610px;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  border: none !important;
+}
+.frame {
+  height: 250px !important;
+  width: 450px !important;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+}
+
+.right {
+  width: 650px;
+}
+#last-button {
+  height: 50px;
+  width: 180px;
+  background-color: green;
+  margin-left: 250px;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+footer {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 17px;
+}
+image img {
+  width: 500px;
+}
+form {
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 25px;
+}
+.location {
+  padding-top: 30px;
+  padding-left: 10px;
+}
+.number {
+  padding-left: 10px;
+  padding-top: 30px;
+}
+.email {
+  padding-left: 10px;
+  padding-top: 30px;
+}
+.loc-wrapper {
+  display: flex;
+}
+.num-wrapper {
+  display: flex;
+}
+.em-wrapper {
+  display: flex;
+}
+.loc {
+  margin-top: 30px;
+  font-size: 30px;
+  margin-left: 25px;
+  color: green;
+  background-color: aliceblue;
+  height: 45px;
+  width: 64px;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.num {
+  margin-top: 30px;
+  font-size: 30px;
+  margin-left: 25px;
+  color: green;
+  background-color: aliceblue;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.em {
+  margin-top: 30px;
+  font-size: 30px;
+  margin-left: 25px;
+  color: green;
+  background-color: aliceblue;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h5 {
+  font-size: 22px;
+}
+.number p {
+  color: green;
+}
+.email p {
+  color: green;
+}
+
+.location p {
+  color: green;
+}
+
+/* media screen  */
+@media screen and (max-width: 768px) {
+  .container2 {
+    height: 300vh;
+  }
+  .image {
+  }
+
+  .navbar-toggler-icon {
+  }
+  .rowv {
+    display: flex;
+    flex-direction: column;
+  }
+  .content h3 {
+    font-size: 15px;
+  }
+  .content h1 {
+    font-size: 25px;
+    width: 300px;
+  }
+  span {
+  }
+  .notify {
+    margin: 0% !important;
+  }
+  .notify input {
+    /* font-size: 15px;
+    padding-top: 12px; */
+  }
+  .notify button {
+  }
+  .content p {
+    font-size: 14px;
+    padding-top: 20px;
+  }
+  .container2 {
+    margin: 0px !important;
+    margin-left: 20px !important;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-row {
+    margin: 0px !important;
+    margin-top: 100px !important;
+  }
+  #last-button {
+    margin-top: 50px;
+  }
+  footer {
+    text-align: center !important;
+    padding-top: 190px !important;
+  }
+}

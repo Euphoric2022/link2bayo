@@ -75,6 +75,7 @@ span {
   color: green;
   display: flex;
   font-size: 30px;
+  margin-top: -150px;
 }
 .wrapper {
   height: 50px;
@@ -92,6 +93,12 @@ span {
   flex-direction: row;
 }
 .image {
+  background-image: url(./link2bayo-banner.png);
+  height: 500px;
+  width: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   margin-top: 50px;
 }
 .container2 .contact {
@@ -112,7 +119,7 @@ span {
   height: 650px;
 }
 
-label {
+.form-label {
   font-weight: 700;
 }
 .form-message {
@@ -162,9 +169,9 @@ footer {
   padding-top: 100px;
   font-size: 17px;
 }
-image img {
+/* image img {
   width: 500px;
-}
+} */
 form {
   padding-left: 20px;
   padding-right: 10px;
@@ -246,13 +253,19 @@ h5 {
 
 /* media screen  */
 @media screen and (max-width: 768px) {
-  .container2 {
-    height: 300vh;
-  }
-  .image {
+  .container {
+    height: 150vh !important ;
   }
 
-  .navbar-toggler-icon {
+  .container2 {
+    height: 220vh;
+  }
+  .image {
+    height: 40vh;
+    width: 90% !important;
+  }
+
+  .navbar {
   }
   .rowv {
     display: flex;
@@ -267,15 +280,33 @@ h5 {
   }
   span {
   }
+  .icons {
+    margin-top: 30% !important;
+  }
   .notify {
     margin: 0% !important;
+    width: 50%;
   }
   .notify input {
-    /* font-size: 15px;
-    padding-top: 12px; */
+    border: none;
+    outline: none;
+    margin-left: 30px;
+    width: 40%;
   }
+
   .notify button {
+    background-color: green;
+    color: white;
+
+    width: 100px;
+    border: none;
+    outline: none;
+    margin-top: 3px;
+    border-radius: 20px;
+    height: 35px;
+    margin-left: 40px !important;
   }
+
   .content p {
     font-size: 14px;
     padding-top: 20px;
@@ -284,19 +315,110 @@ h5 {
     margin: 0px !important;
     margin-left: 20px !important;
   }
+  .container2 .contact {
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 25px;
+  }
+
   .card {
     display: flex;
     flex-direction: column;
   }
+  .form-message {
+    height: 150px;
+    width: 310px;
+    margin-right: 50px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+  }
+  .form-control {
+    height: 40px;
+    width: 310px;
+  }
+  .form-subject {
+    height: 40px;
+    width: 310px;
+    margin-right: 100px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+  }
   .card-row {
     margin: 0px !important;
-    margin-top: 100px !important;
+    margin-top: 40px !important;
+    width: 350px !important;
+  }
+  .right {
+    width: 350px;
+  }
+  .frame {
+    width: 350px !important;
+  }
+  .number p {
+    color: green;
+    font-size: 12px;
+  }
+  .email p {
+    color: green;
+    font-size: 12px;
+  }
+
+  .location p {
+    color: green;
+    font-size: 12px;
+  }
+  .loc {
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 25px;
+    color: green;
+    background-color: aliceblue;
+    height: 35px;
+    width: 45px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .num {
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 25px;
+    color: green;
+    background-color: aliceblue;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .em {
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 25px;
+    color: green;
+    background-color: aliceblue;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer {
+    font-size: 12px !important;
+    padding-right: 20px !important;
+    padding-top: 120px !important;
   }
   #last-button {
-    margin-top: 50px;
-  }
-  footer {
-    text-align: center !important;
-    padding-top: 190px !important;
+    height: 40px;
+    width: 150px;
+    background-color: green;
+    border: none;
+    margin-left: 80px;
+    border-radius: 25px;
+    margin-top: 20px;
   }
 }
